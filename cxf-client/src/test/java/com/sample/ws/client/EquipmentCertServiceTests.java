@@ -21,7 +21,6 @@ public class EquipmentCertServiceTests {
     public void testCertIssue() throws Exception {
         //cn.com.infosec:ISFJ:V2.0.139.15
         //cn.com.infosec:NetSignAgent:V5.5.40.12
-        String wsdlUrl = "http://36.110.10.186:50072/NetCertRA6.3.0.1/equipmentCertService.wsdl";
         JaxWsProxyFactoryBean factory = new JaxWsProxyFactoryBean();
         factory.setServiceClass(EquipmentCertPort.class);
         factory.setAddress("http://36.110.10.186:50072/NetCertRA6.3.0.1/equipmentCertService/");

@@ -1,7 +1,9 @@
 package com.sample.ws.client;
 
+import com.sample.ws.service.HelloWebService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.cxf.endpoint.Client;
+import org.apache.cxf.jaxws.JaxWsProxyFactoryBean;
 import org.apache.cxf.jaxws.endpoint.dynamic.JaxWsDynamicClientFactory;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Disabled;
@@ -25,5 +27,18 @@ public class HelloWebServiceTests {
         Object[] msg = client.invoke("add", 1, 2);
         log.info("result: {}", msg[0]);
         Assertions.assertEquals(3, msg[0]);
+    }
+
+    @Test
+    @Disabled
+    public void testAddUsingProxy() throws Exception {
+        JaxWsProxyFactoryBean factory = new JaxWsProxyFactoryBean();
+        factory.setServiceClass(HelloWebService.class);
+        factory.setAddress("http://localhost:8080/ws/helloWebService");
+        HelloWebService helloWebService = (HelloWebService) factory.create();
+
+        int result = helloWebService.add(1, 2);
+        log.info("result: {}", result);
+        Assertions.assertEquals(3, result);
     }
 }
