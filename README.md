@@ -11,9 +11,9 @@
 
 ```bash
 # HelloWebServiceTests
-sh> wsdl2java -p cn.com.infosec.ra.webservice \
+sh> wsdl2java -p com.sample.ws.service \
   -d C:\Users\hanqi\Desktop\wsdl \
-  http://36.110.10.186:50072/NetCertRA6.3.0.1/equipmentCertService.wsdl
+  http://localhost:8080/ws/helloWebService?wsdl
 
 # EquipmentCertServiceTests
 sh> wsdl2java -p cn.com.infosec.ra.webservice \
