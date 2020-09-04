@@ -13,7 +13,7 @@ import javax.jws.WebService;
  */
 @Component
 @WebService(serviceName = "helloWebService",
-        targetNamespace = "http://ws.sample.com",
+        targetNamespace = "http://service.ws.sample.com/",
         endpointInterface = "com.sample.ws.service.HelloWebService")
 public class HelloWebServiceImpl implements HelloWebService {
 
