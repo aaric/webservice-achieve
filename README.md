@@ -6,3 +6,17 @@
 [![release](https://img.shields.io/badge/release-0.1.0-blue.svg)](https://github.com/aaric/webservice-achieve/releases)
 
 > WebService CXF Learning.
+
+## wsdl2java
+
+```bash
+# HelloWebServiceTests
+sh> wsdl2java -p cn.com.infosec.ra.webservice \
+  -d C:\Users\hanqi\Desktop\wsdl \
+  http://36.110.10.186:50072/NetCertRA6.3.0.1/equipmentCertService.wsdl
+
+# EquipmentCertServiceTests
+sh> wsdl2java -p cn.com.infosec.ra.webservice \
+  -d C:\Users\hanqi\Desktop\wsdl \
+  http://36.110.10.186:50072/NetCertRA6.3.0.1/equipmentCertService.wsdl
+```
