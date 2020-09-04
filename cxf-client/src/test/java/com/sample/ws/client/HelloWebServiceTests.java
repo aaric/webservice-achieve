@@ -32,6 +32,7 @@ public class HelloWebServiceTests {
     @Test
     @Disabled
     public void testAddUsingProxy() throws Exception {
+        // https://blog.csdn.net/dongdong9223/article/details/53169020
         JaxWsProxyFactoryBean factory = new JaxWsProxyFactoryBean();
         factory.setServiceClass(HelloWebService.class);
         factory.setAddress("http://localhost:8080/ws/helloWebService");
