@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 import javax.jws.WebService;
 
 /**
- * webservice-achieve
+ * HelloWebServiceImpl
  *
  * @author Aaric, created on 2020-09-04T09:31.
  * @version 0.1.0-SNAPSHOT
