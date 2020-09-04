@@ -21,4 +21,10 @@ public class HelloWebServiceImpl implements HelloWebService {
     public int add(int x, int y) {
         return x + y;
     }
+
+    @Override
+    public String user(long id) {
+        //return new User(id, "Aaric");
+        return "Hello World";
+    }
 }

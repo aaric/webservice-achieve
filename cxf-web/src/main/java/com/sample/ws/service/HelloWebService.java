@@ -15,4 +15,7 @@ public interface HelloWebService {
 
     @WebMethod(operationName = "add")
     int add(@WebParam(name = "x") int x, @WebParam(name = "y") int y);
+
+    @WebMethod(operationName = "user")
+    String user(@WebParam(name = "id") long id);
 }
