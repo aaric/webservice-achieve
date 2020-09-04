@@ -1,0 +1,4 @@
+include "cxf-web"
+include "cxf-client"
+
+rootProject.name = "webservice-achieve"
