@@ -14,8 +14,4 @@
 sh> wsdl2java -encoding utf-8 -p com.sample.ws.service \
   -d C:\Users\hanqi\Desktop\wsdl \
   http://localhost:8080/ws/helloWebService?wsdl
-
-# EquipmentCertServiceTests
-sh> wsdl2java -encoding utf-8 \
-http://36.110.10.186:50072/NetCertRA6.3.0.1/equipmentCertService.wsdl
 ```
