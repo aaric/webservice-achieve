@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * &lt;p&gt;anonymous complex typeµÄ Java Àà¡£
+ * &lt;p&gt;anonymous complex typeçš„ Java ç±»ã€‚
  * 
- * &lt;p&gt;ÒÔÏÂÄ£Ê½Æ¬¶ÎÖ¸¶¨°üº¬ÔÚ´ËÀàÖĞµÄÔ¤ÆÚÄÚÈİ¡£
+ * &lt;p&gt;ä»¥ä¸‹æ¨¡å¼ç‰‡æ®µæŒ‡å®šåŒ…å«åœ¨æ­¤ç±»ä¸­çš„é¢„æœŸå†…å®¹ã€‚
  * 
  * &lt;pre&gt;
  * &amp;lt;complexType&amp;gt;
@@ -52,7 +52,7 @@ public class Signature {
     protected String certificateBase64;
 
     /**
-     * »ñÈ¡signDataBase64ÊôĞÔµÄÖµ¡£
+     * è·å–signDataBase64å±æ€§çš„å€¼ã€‚
      * 
      * @return
      *     possible object is
@@ -64,7 +64,7 @@ public class Signature {
     }
 
     /**
-     * ÉèÖÃsignDataBase64ÊôĞÔµÄÖµ¡£
+     * è®¾ç½®signDataBase64å±æ€§çš„å€¼ã€‚
      * 
      * @param value
      *     allowed object is
@@ -76,7 +76,7 @@ public class Signature {
     }
 
     /**
-     * »ñÈ¡certificateBase64ÊôĞÔµÄÖµ¡£
+     * è·å–certificateBase64å±æ€§çš„å€¼ã€‚
      * 
      * @return
      *     possible object is
@@ -88,7 +88,7 @@ public class Signature {
     }
 
     /**
-     * ÉèÖÃcertificateBase64ÊôĞÔµÄÖµ¡£
+     * è®¾ç½®certificateBase64å±æ€§çš„å€¼ã€‚
      * 
      * @param value
      *     allowed object is

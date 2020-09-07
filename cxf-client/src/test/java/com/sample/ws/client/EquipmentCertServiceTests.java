@@ -4,6 +4,8 @@ import cn.com.infosec.ra.webservice.CertIssueRequest;
 import cn.com.infosec.ra.webservice.CertIssueResponse;
 import cn.com.infosec.ra.webservice.EquipmentCertPort;
 import cn.com.infosec.ra.webservice.Signature;
+import org.apache.cxf.interceptor.LoggingInInterceptor;
+import org.apache.cxf.interceptor.LoggingOutInterceptor;
 import org.apache.cxf.jaxws.JaxWsProxyFactoryBean;
 import org.junit.jupiter.api.Test;
 
@@ -24,6 +26,8 @@ public class EquipmentCertServiceTests {
         JaxWsProxyFactoryBean factory = new JaxWsProxyFactoryBean();
         factory.setServiceClass(EquipmentCertPort.class);
         factory.setAddress("http://36.110.10.186:50072/NetCertRA6.3.0.1/equipmentCertService/");
+        factory.getInInterceptors().add(new LoggingInInterceptor());
+        factory.getOutFaultInterceptors().add(new LoggingOutInterceptor());
         EquipmentCertPort equipmentCertService = (EquipmentCertPort) factory.create();
 
         CertIssueRequest certIssueRequest = new CertIssueRequest();

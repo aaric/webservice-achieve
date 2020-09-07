@@ -11,9 +11,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * &lt;p&gt;anonymous complex typeµÄ Java Àà¡£
+ * &lt;p&gt;anonymous complex typeçš„ Java ç±»ã€‚
  * 
- * &lt;p&gt;ÒÔÏÂÄ£Ê½Æ¬¶ÎÖ¸¶¨°üº¬ÔÚ´ËÀàÖĞµÄÔ¤ÆÚÄÚÈİ¡£
+ * &lt;p&gt;ä»¥ä¸‹æ¨¡å¼ç‰‡æ®µæŒ‡å®šåŒ…å«åœ¨æ­¤ç±»ä¸­çš„é¢„æœŸå†…å®¹ã€‚
  * 
  * &lt;pre&gt;
  * &amp;lt;complexType&amp;gt;
@@ -100,9 +100,9 @@ public class CertExtensions {
 
 
     /**
-     * &lt;p&gt;anonymous complex typeµÄ Java Àà¡£
+     * &lt;p&gt;anonymous complex typeçš„ Java ç±»ã€‚
      * 
-     * &lt;p&gt;ÒÔÏÂÄ£Ê½Æ¬¶ÎÖ¸¶¨°üº¬ÔÚ´ËÀàÖĞµÄÔ¤ÆÚÄÚÈİ¡£
+     * &lt;p&gt;ä»¥ä¸‹æ¨¡å¼ç‰‡æ®µæŒ‡å®šåŒ…å«åœ¨æ­¤ç±»ä¸­çš„é¢„æœŸå†…å®¹ã€‚
      * 
      * &lt;pre&gt;
      * &amp;lt;complexType&amp;gt;
@@ -154,7 +154,7 @@ public class CertExtensions {
         protected String oidValue;
 
         /**
-         * »ñÈ¡oidÊôĞÔµÄÖµ¡£
+         * è·å–oidå±æ€§çš„å€¼ã€‚
          * 
          * @return
          *     possible object is
@@ -166,7 +166,7 @@ public class CertExtensions {
         }
 
         /**
-         * ÉèÖÃoidÊôĞÔµÄÖµ¡£
+         * è®¾ç½®oidå±æ€§çš„å€¼ã€‚
          * 
          * @param value
          *     allowed object is
@@ -178,7 +178,7 @@ public class CertExtensions {
         }
 
         /**
-         * »ñÈ¡oidTypeÊôĞÔµÄÖµ¡£
+         * è·å–oidTypeå±æ€§çš„å€¼ã€‚
          * 
          * @return
          *     possible object is
@@ -190,7 +190,7 @@ public class CertExtensions {
         }
 
         /**
-         * ÉèÖÃoidTypeÊôĞÔµÄÖµ¡£
+         * è®¾ç½®oidTypeå±æ€§çš„å€¼ã€‚
          * 
          * @param value
          *     allowed object is
@@ -202,7 +202,7 @@ public class CertExtensions {
         }
 
         /**
-         * »ñÈ¡oidValueÊôĞÔµÄÖµ¡£
+         * è·å–oidValueå±æ€§çš„å€¼ã€‚
          * 
          * @return
          *     possible object is
@@ -214,7 +214,7 @@ public class CertExtensions {
         }
 
         /**
-         * ÉèÖÃoidValueÊôĞÔµÄÖµ¡£
+         * è®¾ç½®oidValueå±æ€§çš„å€¼ã€‚
          * 
          * @param value
          *     allowed object is

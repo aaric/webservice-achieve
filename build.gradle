@@ -70,6 +70,7 @@ subprojects {
 
             dependency "org.apache.cxf:cxf-rt-frontend-jaxws:3.4.0"
             dependency "org.apache.cxf:cxf-rt-transports-http:3.4.0"
+            dependency "org.apache.cxf:cxf-rt-features-logging:3.4.0"
             dependency "org.apache.cxf:cxf-spring-boot-starter-jaxws:3.4.0"
         }
     }

@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * &lt;p&gt;addResponse complex typeµÄ Java Àà¡£
+ * &lt;p&gt;addResponse complex typeçš„ Java ç±»ã€‚
  * 
- * &lt;p&gt;ÒÔÏÂÄ£Ê½Æ¬¶ÎÖ¸¶¨°üº¬ÔÚ´ËÀàÖĞµÄÔ¤ÆÚÄÚÈİ¡£
+ * &lt;p&gt;ä»¥ä¸‹æ¨¡å¼ç‰‡æ®µæŒ‡å®šåŒ…å«åœ¨æ­¤ç±»ä¸­çš„é¢„æœŸå†…å®¹ã€‚
  * 
  * &lt;pre&gt;
  * &amp;lt;complexType name="addResponse"&amp;gt;
@@ -36,7 +36,7 @@ public class AddResponse {
     protected int _return;
 
     /**
-     * »ñÈ¡returnÊôĞÔµÄÖµ¡£
+     * è·å–returnå±æ€§çš„å€¼ã€‚
      * 
      */
     public int getReturn() {
@@ -44,7 +44,7 @@ public class AddResponse {
     }
 
     /**
-     * ÉèÖÃreturnÊôĞÔµÄÖµ¡£
+     * è®¾ç½®returnå±æ€§çš„å€¼ã€‚
      * 
      */
     public void setReturn(int value) {

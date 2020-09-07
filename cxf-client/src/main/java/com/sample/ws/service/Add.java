@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * &lt;p&gt;add complex typeµÄ Java Àà¡£
+ * &lt;p&gt;add complex typeçš„ Java ç±»ã€‚
  * 
- * &lt;p&gt;ÒÔÏÂÄ£Ê½Æ¬¶ÎÖ¸¶¨°üº¬ÔÚ´ËÀàÖĞµÄÔ¤ÆÚÄÚÈİ¡£
+ * &lt;p&gt;ä»¥ä¸‹æ¨¡å¼ç‰‡æ®µæŒ‡å®šåŒ…å«åœ¨æ­¤ç±»ä¸­çš„é¢„æœŸå†…å®¹ã€‚
  * 
  * &lt;pre&gt;
  * &amp;lt;complexType name="add"&amp;gt;
@@ -37,7 +37,7 @@ public class Add {
     protected int y;
 
     /**
-     * »ñÈ¡xÊôĞÔµÄÖµ¡£
+     * è·å–xå±æ€§çš„å€¼ã€‚
      * 
      */
     public int getX() {
@@ -45,7 +45,7 @@ public class Add {
     }
 
     /**
-     * ÉèÖÃxÊôĞÔµÄÖµ¡£
+     * è®¾ç½®xå±æ€§çš„å€¼ã€‚
      * 
      */
     public void setX(int value) {
@@ -53,7 +53,7 @@ public class Add {
     }
 
     /**
-     * »ñÈ¡yÊôĞÔµÄÖµ¡£
+     * è·å–yå±æ€§çš„å€¼ã€‚
      * 
      */
     public int getY() {
@@ -61,7 +61,7 @@ public class Add {
     }
 
     /**
-     * ÉèÖÃyÊôĞÔµÄÖµ¡£
+     * è®¾ç½®yå±æ€§çš„å€¼ã€‚
      * 
      */
     public void setY(int value) {

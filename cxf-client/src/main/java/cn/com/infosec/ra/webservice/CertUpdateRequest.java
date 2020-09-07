@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * &lt;p&gt;anonymous complex typeµÄ Java Àà¡£
+ * &lt;p&gt;anonymous complex typeçš„ Java ç±»ã€‚
  * 
- * &lt;p&gt;ÒÔÏÂÄ£Ê½Æ¬¶ÎÖ¸¶¨°üº¬ÔÚ´ËÀàÖĞµÄÔ¤ÆÚÄÚÈİ¡£
+ * &lt;p&gt;ä»¥ä¸‹æ¨¡å¼ç‰‡æ®µæŒ‡å®šåŒ…å«åœ¨æ­¤ç±»ä¸­çš„é¢„æœŸå†…å®¹ã€‚
  * 
  * &lt;pre&gt;
  * &amp;lt;complexType&amp;gt;
@@ -67,7 +67,7 @@ public class CertUpdateRequest {
     protected Signature signature;
 
     /**
-     * »ñÈ¡transactionCodeÊôĞÔµÄÖµ¡£
+     * è·å–transactionCodeå±æ€§çš„å€¼ã€‚
      * 
      * @return
      *     possible object is
@@ -79,7 +79,7 @@ public class CertUpdateRequest {
     }
 
     /**
-     * ÉèÖÃtransactionCodeÊôĞÔµÄÖµ¡£
+     * è®¾ç½®transactionCodeå±æ€§çš„å€¼ã€‚
      * 
      * @param value
      *     allowed object is
@@ -91,7 +91,7 @@ public class CertUpdateRequest {
     }
 
     /**
-     * »ñÈ¡parametersÊôĞÔµÄÖµ¡£
+     * è·å–parameterså±æ€§çš„å€¼ã€‚
      * 
      * @return
      *     possible object is
@@ -103,7 +103,7 @@ public class CertUpdateRequest {
     }
 
     /**
-     * ÉèÖÃparametersÊôĞÔµÄÖµ¡£
+     * è®¾ç½®parameterså±æ€§çš„å€¼ã€‚
      * 
      * @param value
      *     allowed object is
@@ -115,7 +115,7 @@ public class CertUpdateRequest {
     }
 
     /**
-     * »ñÈ¡signatureÊôĞÔµÄÖµ¡£
+     * è·å–signatureå±æ€§çš„å€¼ã€‚
      * 
      * @return
      *     possible object is
@@ -127,7 +127,7 @@ public class CertUpdateRequest {
     }
 
     /**
-     * ÉèÖÃsignatureÊôĞÔµÄÖµ¡£
+     * è®¾ç½®signatureå±æ€§çš„å€¼ã€‚
      * 
      * @param value
      *     allowed object is
@@ -140,9 +140,9 @@ public class CertUpdateRequest {
 
 
     /**
-     * &lt;p&gt;anonymous complex typeµÄ Java Àà¡£
+     * &lt;p&gt;anonymous complex typeçš„ Java ç±»ã€‚
      * 
-     * &lt;p&gt;ÒÔÏÂÄ£Ê½Æ¬¶ÎÖ¸¶¨°üº¬ÔÚ´ËÀàÖĞµÄÔ¤ÆÚÄÚÈİ¡£
+     * &lt;p&gt;ä»¥ä¸‹æ¨¡å¼ç‰‡æ®µæŒ‡å®šåŒ…å«åœ¨æ­¤ç±»ä¸­çš„é¢„æœŸå†…å®¹ã€‚
      * 
      * &lt;pre&gt;
      * &amp;lt;complexType&amp;gt;
@@ -193,7 +193,7 @@ public class CertUpdateRequest {
         protected CertExtensions certExtensions;
 
         /**
-         * »ñÈ¡caIdÊôĞÔµÄÖµ¡£
+         * è·å–caIdå±æ€§çš„å€¼ã€‚
          * 
          * @return
          *     possible object is
@@ -205,7 +205,7 @@ public class CertUpdateRequest {
         }
 
         /**
-         * ÉèÖÃcaIdÊôĞÔµÄÖµ¡£
+         * è®¾ç½®caIdå±æ€§çš„å€¼ã€‚
          * 
          * @param value
          *     allowed object is
@@ -217,7 +217,7 @@ public class CertUpdateRequest {
         }
 
         /**
-         * »ñÈ¡certSNÊôĞÔµÄÖµ¡£
+         * è·å–certSNå±æ€§çš„å€¼ã€‚
          * 
          * @return
          *     possible object is
@@ -229,7 +229,7 @@ public class CertUpdateRequest {
         }
 
         /**
-         * ÉèÖÃcertSNÊôĞÔµÄÖµ¡£
+         * è®¾ç½®certSNå±æ€§çš„å€¼ã€‚
          * 
          * @param value
          *     allowed object is
@@ -241,7 +241,7 @@ public class CertUpdateRequest {
         }
 
         /**
-         * »ñÈ¡validityLengthÊôĞÔµÄÖµ¡£
+         * è·å–validityLengthå±æ€§çš„å€¼ã€‚
          * 
          * @return
          *     possible object is
@@ -253,7 +253,7 @@ public class CertUpdateRequest {
         }
 
         /**
-         * ÉèÖÃvalidityLengthÊôĞÔµÄÖµ¡£
+         * è®¾ç½®validityLengthå±æ€§çš„å€¼ã€‚
          * 
          * @param value
          *     allowed object is
@@ -265,7 +265,7 @@ public class CertUpdateRequest {
         }
 
         /**
-         * »ñÈ¡p10ÊôĞÔµÄÖµ¡£
+         * è·å–p10å±æ€§çš„å€¼ã€‚
          * 
          * @return
          *     possible object is
@@ -277,7 +277,7 @@ public class CertUpdateRequest {
         }
 
         /**
-         * ÉèÖÃp10ÊôĞÔµÄÖµ¡£
+         * è®¾ç½®p10å±æ€§çš„å€¼ã€‚
          * 
          * @param value
          *     allowed object is
@@ -289,7 +289,7 @@ public class CertUpdateRequest {
         }
 
         /**
-         * »ñÈ¡timeStampÊôĞÔµÄÖµ¡£
+         * è·å–timeStampå±æ€§çš„å€¼ã€‚
          * 
          * @return
          *     possible object is
@@ -301,7 +301,7 @@ public class CertUpdateRequest {
         }
 
         /**
-         * ÉèÖÃtimeStampÊôĞÔµÄÖµ¡£
+         * è®¾ç½®timeStampå±æ€§çš„å€¼ã€‚
          * 
          * @param value
          *     allowed object is
@@ -313,7 +313,7 @@ public class CertUpdateRequest {
         }
 
         /**
-         * »ñÈ¡certExtensionsÊôĞÔµÄÖµ¡£
+         * è·å–certExtensionså±æ€§çš„å€¼ã€‚
          * 
          * @return
          *     possible object is
@@ -325,7 +325,7 @@ public class CertUpdateRequest {
         }
 
         /**
-         * ÉèÖÃcertExtensionsÊôĞÔµÄÖµ¡£
+         * è®¾ç½®certExtensionså±æ€§çš„å€¼ã€‚
          * 
          * @param value
          *     allowed object is

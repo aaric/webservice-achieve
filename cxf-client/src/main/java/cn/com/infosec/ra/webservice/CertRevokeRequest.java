@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * &lt;p&gt;anonymous complex typeµÄ Java Àà¡£
+ * &lt;p&gt;anonymous complex typeçš„ Java ç±»ã€‚
  * 
- * &lt;p&gt;ÒÔÏÂÄ£Ê½Æ¬¶ÎÖ¸¶¨°üº¬ÔÚ´ËÀàÖĞµÄÔ¤ÆÚÄÚÈİ¡£
+ * &lt;p&gt;ä»¥ä¸‹æ¨¡å¼ç‰‡æ®µæŒ‡å®šåŒ…å«åœ¨æ­¤ç±»ä¸­çš„é¢„æœŸå†…å®¹ã€‚
  * 
  * &lt;pre&gt;
  * &amp;lt;complexType&amp;gt;
@@ -68,7 +68,7 @@ public class CertRevokeRequest {
     protected Signature signature;
 
     /**
-     * »ñÈ¡transactionCodeÊôĞÔµÄÖµ¡£
+     * è·å–transactionCodeå±æ€§çš„å€¼ã€‚
      * 
      * @return
      *     possible object is
@@ -80,7 +80,7 @@ public class CertRevokeRequest {
     }
 
     /**
-     * ÉèÖÃtransactionCodeÊôĞÔµÄÖµ¡£
+     * è®¾ç½®transactionCodeå±æ€§çš„å€¼ã€‚
      * 
      * @param value
      *     allowed object is
@@ -92,7 +92,7 @@ public class CertRevokeRequest {
     }
 
     /**
-     * »ñÈ¡parametersÊôĞÔµÄÖµ¡£
+     * è·å–parameterså±æ€§çš„å€¼ã€‚
      * 
      * @return
      *     possible object is
@@ -104,7 +104,7 @@ public class CertRevokeRequest {
     }
 
     /**
-     * ÉèÖÃparametersÊôĞÔµÄÖµ¡£
+     * è®¾ç½®parameterså±æ€§çš„å€¼ã€‚
      * 
      * @param value
      *     allowed object is
@@ -116,7 +116,7 @@ public class CertRevokeRequest {
     }
 
     /**
-     * »ñÈ¡signatureÊôĞÔµÄÖµ¡£
+     * è·å–signatureå±æ€§çš„å€¼ã€‚
      * 
      * @return
      *     possible object is
@@ -128,7 +128,7 @@ public class CertRevokeRequest {
     }
 
     /**
-     * ÉèÖÃsignatureÊôĞÔµÄÖµ¡£
+     * è®¾ç½®signatureå±æ€§çš„å€¼ã€‚
      * 
      * @param value
      *     allowed object is
@@ -141,9 +141,9 @@ public class CertRevokeRequest {
 
 
     /**
-     * &lt;p&gt;anonymous complex typeµÄ Java Àà¡£
+     * &lt;p&gt;anonymous complex typeçš„ Java ç±»ã€‚
      * 
-     * &lt;p&gt;ÒÔÏÂÄ£Ê½Æ¬¶ÎÖ¸¶¨°üº¬ÔÚ´ËÀàÖĞµÄÔ¤ÆÚÄÚÈİ¡£
+     * &lt;p&gt;ä»¥ä¸‹æ¨¡å¼ç‰‡æ®µæŒ‡å®šåŒ…å«åœ¨æ­¤ç±»ä¸­çš„é¢„æœŸå†…å®¹ã€‚
      * 
      * &lt;pre&gt;
      * &amp;lt;complexType&amp;gt;
@@ -187,7 +187,7 @@ public class CertRevokeRequest {
         protected String timeStamp;
 
         /**
-         * »ñÈ¡certSNÊôĞÔµÄÖµ¡£
+         * è·å–certSNå±æ€§çš„å€¼ã€‚
          * 
          * @return
          *     possible object is
@@ -199,7 +199,7 @@ public class CertRevokeRequest {
         }
 
         /**
-         * ÉèÖÃcertSNÊôĞÔµÄÖµ¡£
+         * è®¾ç½®certSNå±æ€§çš„å€¼ã€‚
          * 
          * @param value
          *     allowed object is
@@ -211,7 +211,7 @@ public class CertRevokeRequest {
         }
 
         /**
-         * »ñÈ¡revokeReasonÊôĞÔµÄÖµ¡£
+         * è·å–revokeReasonå±æ€§çš„å€¼ã€‚
          * 
          * @return
          *     possible object is
@@ -223,7 +223,7 @@ public class CertRevokeRequest {
         }
 
         /**
-         * ÉèÖÃrevokeReasonÊôĞÔµÄÖµ¡£
+         * è®¾ç½®revokeReasonå±æ€§çš„å€¼ã€‚
          * 
          * @param value
          *     allowed object is
@@ -235,7 +235,7 @@ public class CertRevokeRequest {
         }
 
         /**
-         * »ñÈ¡timeStampÊôĞÔµÄÖµ¡£
+         * è·å–timeStampå±æ€§çš„å€¼ã€‚
          * 
          * @return
          *     possible object is
@@ -247,7 +247,7 @@ public class CertRevokeRequest {
         }
 
         /**
-         * ÉèÖÃtimeStampÊôĞÔµÄÖµ¡£
+         * è®¾ç½®timeStampå±æ€§çš„å€¼ã€‚
          * 
          * @param value
          *     allowed object is

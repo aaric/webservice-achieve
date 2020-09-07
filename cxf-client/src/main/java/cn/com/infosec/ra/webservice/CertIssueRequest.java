@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * &lt;p&gt;anonymous complex typeµÄ Java Àà¡£
+ * &lt;p&gt;anonymous complex typeçš„ Java ç±»ã€‚
  * 
- * &lt;p&gt;ÒÔÏÂÄ£Ê½Æ¬¶ÎÖ¸¶¨°üº¬ÔÚ´ËÀàÖĞµÄÔ¤ÆÚÄÚÈİ¡£
+ * &lt;p&gt;ä»¥ä¸‹æ¨¡å¼ç‰‡æ®µæŒ‡å®šåŒ…å«åœ¨æ­¤ç±»ä¸­çš„é¢„æœŸå†…å®¹ã€‚
  * 
  * &lt;pre&gt;
  * &amp;lt;complexType&amp;gt;
@@ -81,7 +81,7 @@ public class CertIssueRequest {
     protected Signature signature;
 
     /**
-     * »ñÈ¡transactionCodeÊôĞÔµÄÖµ¡£
+     * è·å–transactionCodeå±æ€§çš„å€¼ã€‚
      * 
      * @return
      *     possible object is
@@ -93,7 +93,7 @@ public class CertIssueRequest {
     }
 
     /**
-     * ÉèÖÃtransactionCodeÊôĞÔµÄÖµ¡£
+     * è®¾ç½®transactionCodeå±æ€§çš„å€¼ã€‚
      * 
      * @param value
      *     allowed object is
@@ -105,7 +105,7 @@ public class CertIssueRequest {
     }
 
     /**
-     * »ñÈ¡parametersÊôĞÔµÄÖµ¡£
+     * è·å–parameterså±æ€§çš„å€¼ã€‚
      * 
      * @return
      *     possible object is
@@ -117,7 +117,7 @@ public class CertIssueRequest {
     }
 
     /**
-     * ÉèÖÃparametersÊôĞÔµÄÖµ¡£
+     * è®¾ç½®parameterså±æ€§çš„å€¼ã€‚
      * 
      * @param value
      *     allowed object is
@@ -129,7 +129,7 @@ public class CertIssueRequest {
     }
 
     /**
-     * »ñÈ¡signatureÊôĞÔµÄÖµ¡£
+     * è·å–signatureå±æ€§çš„å€¼ã€‚
      * 
      * @return
      *     possible object is
@@ -141,7 +141,7 @@ public class CertIssueRequest {
     }
 
     /**
-     * ÉèÖÃsignatureÊôĞÔµÄÖµ¡£
+     * è®¾ç½®signatureå±æ€§çš„å€¼ã€‚
      * 
      * @param value
      *     allowed object is
@@ -154,9 +154,9 @@ public class CertIssueRequest {
 
 
     /**
-     * &lt;p&gt;anonymous complex typeµÄ Java Àà¡£
+     * &lt;p&gt;anonymous complex typeçš„ Java ç±»ã€‚
      * 
-     * &lt;p&gt;ÒÔÏÂÄ£Ê½Æ¬¶ÎÖ¸¶¨°üº¬ÔÚ´ËÀàÖĞµÄÔ¤ÆÚÄÚÈİ¡£
+     * &lt;p&gt;ä»¥ä¸‹æ¨¡å¼ç‰‡æ®µæŒ‡å®šåŒ…å«åœ¨æ­¤ç±»ä¸­çš„é¢„æœŸå†…å®¹ã€‚
      * 
      * &lt;pre&gt;
      * &amp;lt;complexType&amp;gt;
@@ -224,7 +224,7 @@ public class CertIssueRequest {
         protected CertExtensions certExtensions;
 
         /**
-         * »ñÈ¡caIdÊôĞÔµÄÖµ¡£
+         * è·å–caIdå±æ€§çš„å€¼ã€‚
          * 
          * @return
          *     possible object is
@@ -236,7 +236,7 @@ public class CertIssueRequest {
         }
 
         /**
-         * ÉèÖÃcaIdÊôĞÔµÄÖµ¡£
+         * è®¾ç½®caIdå±æ€§çš„å€¼ã€‚
          * 
          * @param value
          *     allowed object is
@@ -248,7 +248,7 @@ public class CertIssueRequest {
         }
 
         /**
-         * »ñÈ¡userNameÊôĞÔµÄÖµ¡£
+         * è·å–userNameå±æ€§çš„å€¼ã€‚
          * 
          * @return
          *     possible object is
@@ -260,7 +260,7 @@ public class CertIssueRequest {
         }
 
         /**
-         * ÉèÖÃuserNameÊôĞÔµÄÖµ¡£
+         * è®¾ç½®userNameå±æ€§çš„å€¼ã€‚
          * 
          * @param value
          *     allowed object is
@@ -272,7 +272,7 @@ public class CertIssueRequest {
         }
 
         /**
-         * »ñÈ¡templateIDÊôĞÔµÄÖµ¡£
+         * è·å–templateIDå±æ€§çš„å€¼ã€‚
          * 
          * @return
          *     possible object is
@@ -284,7 +284,7 @@ public class CertIssueRequest {
         }
 
         /**
-         * ÉèÖÃtemplateIDÊôĞÔµÄÖµ¡£
+         * è®¾ç½®templateIDå±æ€§çš„å€¼ã€‚
          * 
          * @param value
          *     allowed object is
@@ -296,7 +296,7 @@ public class CertIssueRequest {
         }
 
         /**
-         * »ñÈ¡validityLengthÊôĞÔµÄÖµ¡£
+         * è·å–validityLengthå±æ€§çš„å€¼ã€‚
          * 
          * @return
          *     possible object is
@@ -308,7 +308,7 @@ public class CertIssueRequest {
         }
 
         /**
-         * ÉèÖÃvalidityLengthÊôĞÔµÄÖµ¡£
+         * è®¾ç½®validityLengthå±æ€§çš„å€¼ã€‚
          * 
          * @param value
          *     allowed object is
@@ -320,7 +320,7 @@ public class CertIssueRequest {
         }
 
         /**
-         * »ñÈ¡p10ÊôĞÔµÄÖµ¡£
+         * è·å–p10å±æ€§çš„å€¼ã€‚
          * 
          * @return
          *     possible object is
@@ -332,7 +332,7 @@ public class CertIssueRequest {
         }
 
         /**
-         * ÉèÖÃp10ÊôĞÔµÄÖµ¡£
+         * è®¾ç½®p10å±æ€§çš„å€¼ã€‚
          * 
          * @param value
          *     allowed object is
@@ -344,7 +344,7 @@ public class CertIssueRequest {
         }
 
         /**
-         * »ñÈ¡timeStampÊôĞÔµÄÖµ¡£
+         * è·å–timeStampå±æ€§çš„å€¼ã€‚
          * 
          * @return
          *     possible object is
@@ -356,7 +356,7 @@ public class CertIssueRequest {
         }
 
         /**
-         * ÉèÖÃtimeStampÊôĞÔµÄÖµ¡£
+         * è®¾ç½®timeStampå±æ€§çš„å€¼ã€‚
          * 
          * @param value
          *     allowed object is
@@ -368,7 +368,7 @@ public class CertIssueRequest {
         }
 
         /**
-         * »ñÈ¡certExtensionsÊôĞÔµÄÖµ¡£
+         * è·å–certExtensionså±æ€§çš„å€¼ã€‚
          * 
          * @return
          *     possible object is
@@ -380,7 +380,7 @@ public class CertIssueRequest {
         }
 
         /**
-         * ÉèÖÃcertExtensionsÊôĞÔµÄÖµ¡£
+         * è®¾ç½®certExtensionså±æ€§çš„å€¼ã€‚
          * 
          * @param value
          *     allowed object is

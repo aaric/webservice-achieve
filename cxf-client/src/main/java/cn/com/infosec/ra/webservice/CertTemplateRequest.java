@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * &lt;p&gt;anonymous complex typeµÄ Java Àà¡£
+ * &lt;p&gt;anonymous complex typeçš„ Java ç±»ã€‚
  * 
- * &lt;p&gt;ÒÔÏÂÄ£Ê½Æ¬¶ÎÖ¸¶¨°üº¬ÔÚ´ËÀàÖĞµÄÔ¤ÆÚÄÚÈİ¡£
+ * &lt;p&gt;ä»¥ä¸‹æ¨¡å¼ç‰‡æ®µæŒ‡å®šåŒ…å«åœ¨æ­¤ç±»ä¸­çš„é¢„æœŸå†…å®¹ã€‚
  * 
  * &lt;pre&gt;
  * &amp;lt;complexType&amp;gt;
@@ -53,7 +53,7 @@ public class CertTemplateRequest {
     protected CertTemplateRequest.Parameters parameters;
 
     /**
-     * »ñÈ¡transactionCodeÊôĞÔµÄÖµ¡£
+     * è·å–transactionCodeå±æ€§çš„å€¼ã€‚
      * 
      * @return
      *     possible object is
@@ -65,7 +65,7 @@ public class CertTemplateRequest {
     }
 
     /**
-     * ÉèÖÃtransactionCodeÊôĞÔµÄÖµ¡£
+     * è®¾ç½®transactionCodeå±æ€§çš„å€¼ã€‚
      * 
      * @param value
      *     allowed object is
@@ -77,7 +77,7 @@ public class CertTemplateRequest {
     }
 
     /**
-     * »ñÈ¡parametersÊôĞÔµÄÖµ¡£
+     * è·å–parameterså±æ€§çš„å€¼ã€‚
      * 
      * @return
      *     possible object is
@@ -89,7 +89,7 @@ public class CertTemplateRequest {
     }
 
     /**
-     * ÉèÖÃparametersÊôĞÔµÄÖµ¡£
+     * è®¾ç½®parameterså±æ€§çš„å€¼ã€‚
      * 
      * @param value
      *     allowed object is
@@ -102,9 +102,9 @@ public class CertTemplateRequest {
 
 
     /**
-     * &lt;p&gt;anonymous complex typeµÄ Java Àà¡£
+     * &lt;p&gt;anonymous complex typeçš„ Java ç±»ã€‚
      * 
-     * &lt;p&gt;ÒÔÏÂÄ£Ê½Æ¬¶ÎÖ¸¶¨°üº¬ÔÚ´ËÀàÖĞµÄÔ¤ÆÚÄÚÈİ¡£
+     * &lt;p&gt;ä»¥ä¸‹æ¨¡å¼ç‰‡æ®µæŒ‡å®šåŒ…å«åœ¨æ­¤ç±»ä¸­çš„é¢„æœŸå†…å®¹ã€‚
      * 
      * &lt;pre&gt;
      * &amp;lt;complexType&amp;gt;
@@ -134,7 +134,7 @@ public class CertTemplateRequest {
         protected String timeStamp;
 
         /**
-         * »ñÈ¡caIdÊôĞÔµÄÖµ¡£
+         * è·å–caIdå±æ€§çš„å€¼ã€‚
          * 
          * @return
          *     possible object is
@@ -146,7 +146,7 @@ public class CertTemplateRequest {
         }
 
         /**
-         * ÉèÖÃcaIdÊôĞÔµÄÖµ¡£
+         * è®¾ç½®caIdå±æ€§çš„å€¼ã€‚
          * 
          * @param value
          *     allowed object is
@@ -158,7 +158,7 @@ public class CertTemplateRequest {
         }
 
         /**
-         * »ñÈ¡timeStampÊôĞÔµÄÖµ¡£
+         * è·å–timeStampå±æ€§çš„å€¼ã€‚
          * 
          * @return
          *     possible object is
@@ -170,7 +170,7 @@ public class CertTemplateRequest {
         }
 
         /**
-         * ÉèÖÃtimeStampÊôĞÔµÄÖµ¡£
+         * è®¾ç½®timeStampå±æ€§çš„å€¼ã€‚
          * 
          * @param value
          *     allowed object is

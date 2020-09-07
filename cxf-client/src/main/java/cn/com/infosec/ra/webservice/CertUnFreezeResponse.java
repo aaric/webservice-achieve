@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * &lt;p&gt;anonymous complex typeµÄ Java Àà¡£
+ * &lt;p&gt;anonymous complex typeçš„ Java ç±»ã€‚
  * 
- * &lt;p&gt;ÒÔÏÂÄ£Ê½Æ¬¶ÎÖ¸¶¨°üº¬ÔÚ´ËÀàÖĞµÄÔ¤ÆÚÄÚÈİ¡£
+ * &lt;p&gt;ä»¥ä¸‹æ¨¡å¼ç‰‡æ®µæŒ‡å®šåŒ…å«åœ¨æ­¤ç±»ä¸­çš„é¢„æœŸå†…å®¹ã€‚
  * 
  * &lt;pre&gt;
  * &amp;lt;complexType&amp;gt;
@@ -41,7 +41,7 @@ public class CertUnFreezeResponse {
     protected boolean result;
 
     /**
-     * »ñÈ¡transactionCodeÊôĞÔµÄÖµ¡£
+     * è·å–transactionCodeå±æ€§çš„å€¼ã€‚
      * 
      * @return
      *     possible object is
@@ -53,7 +53,7 @@ public class CertUnFreezeResponse {
     }
 
     /**
-     * ÉèÖÃtransactionCodeÊôĞÔµÄÖµ¡£
+     * è®¾ç½®transactionCodeå±æ€§çš„å€¼ã€‚
      * 
      * @param value
      *     allowed object is
@@ -65,7 +65,7 @@ public class CertUnFreezeResponse {
     }
 
     /**
-     * »ñÈ¡resultÊôĞÔµÄÖµ¡£
+     * è·å–resultå±æ€§çš„å€¼ã€‚
      * 
      */
     public boolean isResult() {
@@ -73,7 +73,7 @@ public class CertUnFreezeResponse {
     }
 
     /**
-     * ÉèÖÃresultÊôĞÔµÄÖµ¡£
+     * è®¾ç½®resultå±æ€§çš„å€¼ã€‚
      * 
      */
     public void setResult(boolean value) {

@@ -11,9 +11,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * &lt;p&gt;anonymous complex typeµÄ Java Àà¡£
+ * &lt;p&gt;anonymous complex typeçš„ Java ç±»ã€‚
  * 
- * &lt;p&gt;ÒÔÏÂÄ£Ê½Æ¬¶ÎÖ¸¶¨°üº¬ÔÚ´ËÀàÖĞµÄÔ¤ÆÚÄÚÈİ¡£
+ * &lt;p&gt;ä»¥ä¸‹æ¨¡å¼ç‰‡æ®µæŒ‡å®šåŒ…å«åœ¨æ­¤ç±»ä¸­çš„é¢„æœŸå†…å®¹ã€‚
  * 
  * &lt;pre&gt;
  * &amp;lt;complexType&amp;gt;
@@ -75,7 +75,7 @@ public class CertTemplateResponse {
     protected CertTemplateResponse.Templates templates;
 
     /**
-     * »ñÈ¡transactionCodeÊôĞÔµÄÖµ¡£
+     * è·å–transactionCodeå±æ€§çš„å€¼ã€‚
      * 
      * @return
      *     possible object is
@@ -87,7 +87,7 @@ public class CertTemplateResponse {
     }
 
     /**
-     * ÉèÖÃtransactionCodeÊôĞÔµÄÖµ¡£
+     * è®¾ç½®transactionCodeå±æ€§çš„å€¼ã€‚
      * 
      * @param value
      *     allowed object is
@@ -99,7 +99,7 @@ public class CertTemplateResponse {
     }
 
     /**
-     * »ñÈ¡templatesÊôĞÔµÄÖµ¡£
+     * è·å–templateså±æ€§çš„å€¼ã€‚
      * 
      * @return
      *     possible object is
@@ -111,7 +111,7 @@ public class CertTemplateResponse {
     }
 
     /**
-     * ÉèÖÃtemplatesÊôĞÔµÄÖµ¡£
+     * è®¾ç½®templateså±æ€§çš„å€¼ã€‚
      * 
      * @param value
      *     allowed object is
@@ -124,9 +124,9 @@ public class CertTemplateResponse {
 
 
     /**
-     * &lt;p&gt;anonymous complex typeµÄ Java Àà¡£
+     * &lt;p&gt;anonymous complex typeçš„ Java ç±»ã€‚
      * 
-     * &lt;p&gt;ÒÔÏÂÄ£Ê½Æ¬¶ÎÖ¸¶¨°üº¬ÔÚ´ËÀàÖĞµÄÔ¤ÆÚÄÚÈİ¡£
+     * &lt;p&gt;ä»¥ä¸‹æ¨¡å¼ç‰‡æ®µæŒ‡å®šåŒ…å«åœ¨æ­¤ç±»ä¸­çš„é¢„æœŸå†…å®¹ã€‚
      * 
      * &lt;pre&gt;
      * &amp;lt;complexType&amp;gt;
@@ -202,9 +202,9 @@ public class CertTemplateResponse {
 
 
         /**
-         * &lt;p&gt;anonymous complex typeµÄ Java Àà¡£
+         * &lt;p&gt;anonymous complex typeçš„ Java ç±»ã€‚
          * 
-         * &lt;p&gt;ÒÔÏÂÄ£Ê½Æ¬¶ÎÖ¸¶¨°üº¬ÔÚ´ËÀàÖĞµÄÔ¤ÆÚÄÚÈİ¡£
+         * &lt;p&gt;ä»¥ä¸‹æ¨¡å¼ç‰‡æ®µæŒ‡å®šåŒ…å«åœ¨æ­¤ç±»ä¸­çš„é¢„æœŸå†…å®¹ã€‚
          * 
          * &lt;pre&gt;
          * &amp;lt;complexType&amp;gt;
@@ -244,7 +244,7 @@ public class CertTemplateResponse {
             protected String name;
 
             /**
-             * »ñÈ¡idÊôĞÔµÄÖµ¡£
+             * è·å–idå±æ€§çš„å€¼ã€‚
              * 
              * @return
              *     possible object is
@@ -256,7 +256,7 @@ public class CertTemplateResponse {
             }
 
             /**
-             * ÉèÖÃidÊôĞÔµÄÖµ¡£
+             * è®¾ç½®idå±æ€§çš„å€¼ã€‚
              * 
              * @param value
              *     allowed object is
@@ -268,7 +268,7 @@ public class CertTemplateResponse {
             }
 
             /**
-             * »ñÈ¡nameÊôĞÔµÄÖµ¡£
+             * è·å–nameå±æ€§çš„å€¼ã€‚
              * 
              * @return
              *     possible object is
@@ -280,7 +280,7 @@ public class CertTemplateResponse {
             }
 
             /**
-             * ÉèÖÃnameÊôĞÔµÄÖµ¡£
+             * è®¾ç½®nameå±æ€§çš„å€¼ã€‚
              * 
              * @param value
              *     allowed object is

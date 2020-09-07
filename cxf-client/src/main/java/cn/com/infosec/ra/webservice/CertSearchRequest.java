@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * &lt;p&gt;anonymous complex typeµÄ Java Àà¡£
+ * &lt;p&gt;anonymous complex typeçš„ Java ç±»ã€‚
  * 
- * &lt;p&gt;ÒÔÏÂÄ£Ê½Æ¬¶ÎÖ¸¶¨°üº¬ÔÚ´ËÀàÖĞµÄÔ¤ÆÚÄÚÈİ¡£
+ * &lt;p&gt;ä»¥ä¸‹æ¨¡å¼ç‰‡æ®µæŒ‡å®šåŒ…å«åœ¨æ­¤ç±»ä¸­çš„é¢„æœŸå†…å®¹ã€‚
  * 
  * &lt;pre&gt;
  * &amp;lt;complexType&amp;gt;
@@ -73,7 +73,7 @@ public class CertSearchRequest {
     protected Signature signature;
 
     /**
-     * »ñÈ¡transactionCodeÊôĞÔµÄÖµ¡£
+     * è·å–transactionCodeå±æ€§çš„å€¼ã€‚
      * 
      * @return
      *     possible object is
@@ -85,7 +85,7 @@ public class CertSearchRequest {
     }
 
     /**
-     * ÉèÖÃtransactionCodeÊôĞÔµÄÖµ¡£
+     * è®¾ç½®transactionCodeå±æ€§çš„å€¼ã€‚
      * 
      * @param value
      *     allowed object is
@@ -97,7 +97,7 @@ public class CertSearchRequest {
     }
 
     /**
-     * »ñÈ¡parametersÊôĞÔµÄÖµ¡£
+     * è·å–parameterså±æ€§çš„å€¼ã€‚
      * 
      * @return
      *     possible object is
@@ -109,7 +109,7 @@ public class CertSearchRequest {
     }
 
     /**
-     * ÉèÖÃparametersÊôĞÔµÄÖµ¡£
+     * è®¾ç½®parameterså±æ€§çš„å€¼ã€‚
      * 
      * @param value
      *     allowed object is
@@ -121,7 +121,7 @@ public class CertSearchRequest {
     }
 
     /**
-     * »ñÈ¡signatureÊôĞÔµÄÖµ¡£
+     * è·å–signatureå±æ€§çš„å€¼ã€‚
      * 
      * @return
      *     possible object is
@@ -133,7 +133,7 @@ public class CertSearchRequest {
     }
 
     /**
-     * ÉèÖÃsignatureÊôĞÔµÄÖµ¡£
+     * è®¾ç½®signatureå±æ€§çš„å€¼ã€‚
      * 
      * @param value
      *     allowed object is
@@ -146,9 +146,9 @@ public class CertSearchRequest {
 
 
     /**
-     * &lt;p&gt;anonymous complex typeµÄ Java Àà¡£
+     * &lt;p&gt;anonymous complex typeçš„ Java ç±»ã€‚
      * 
-     * &lt;p&gt;ÒÔÏÂÄ£Ê½Æ¬¶ÎÖ¸¶¨°üº¬ÔÚ´ËÀàÖĞµÄÔ¤ÆÚÄÚÈİ¡£
+     * &lt;p&gt;ä»¥ä¸‹æ¨¡å¼ç‰‡æ®µæŒ‡å®šåŒ…å«åœ¨æ­¤ç±»ä¸­çš„é¢„æœŸå†…å®¹ã€‚
      * 
      * &lt;pre&gt;
      * &amp;lt;complexType&amp;gt;
@@ -197,7 +197,7 @@ public class CertSearchRequest {
         protected String timeStamp;
 
         /**
-         * »ñÈ¡userNameÊôĞÔµÄÖµ¡£
+         * è·å–userNameå±æ€§çš„å€¼ã€‚
          * 
          * @return
          *     possible object is
@@ -209,7 +209,7 @@ public class CertSearchRequest {
         }
 
         /**
-         * ÉèÖÃuserNameÊôĞÔµÄÖµ¡£
+         * è®¾ç½®userNameå±æ€§çš„å€¼ã€‚
          * 
          * @param value
          *     allowed object is
@@ -221,7 +221,7 @@ public class CertSearchRequest {
         }
 
         /**
-         * »ñÈ¡subjectDNÊôĞÔµÄÖµ¡£
+         * è·å–subjectDNå±æ€§çš„å€¼ã€‚
          * 
          * @return
          *     possible object is
@@ -233,7 +233,7 @@ public class CertSearchRequest {
         }
 
         /**
-         * ÉèÖÃsubjectDNÊôĞÔµÄÖµ¡£
+         * è®¾ç½®subjectDNå±æ€§çš„å€¼ã€‚
          * 
          * @param value
          *     allowed object is
@@ -245,7 +245,7 @@ public class CertSearchRequest {
         }
 
         /**
-         * »ñÈ¡certSNÊôĞÔµÄÖµ¡£
+         * è·å–certSNå±æ€§çš„å€¼ã€‚
          * 
          * @return
          *     possible object is
@@ -257,7 +257,7 @@ public class CertSearchRequest {
         }
 
         /**
-         * ÉèÖÃcertSNÊôĞÔµÄÖµ¡£
+         * è®¾ç½®certSNå±æ€§çš„å€¼ã€‚
          * 
          * @param value
          *     allowed object is
@@ -269,7 +269,7 @@ public class CertSearchRequest {
         }
 
         /**
-         * »ñÈ¡timeStampÊôĞÔµÄÖµ¡£
+         * è·å–timeStampå±æ€§çš„å€¼ã€‚
          * 
          * @return
          *     possible object is
@@ -281,7 +281,7 @@ public class CertSearchRequest {
         }
 
         /**
-         * ÉèÖÃtimeStampÊôĞÔµÄÖµ¡£
+         * è®¾ç½®timeStampå±æ€§çš„å€¼ã€‚
          * 
          * @param value
          *     allowed object is

@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * &lt;p&gt;anonymous complex typeµÄ Java Àà¡£
+ * &lt;p&gt;anonymous complex typeçš„ Java ç±»ã€‚
  * 
- * &lt;p&gt;ÒÔÏÂÄ£Ê½Æ¬¶ÎÖ¸¶¨°üº¬ÔÚ´ËÀàÖĞµÄÔ¤ÆÚÄÚÈİ¡£
+ * &lt;p&gt;ä»¥ä¸‹æ¨¡å¼ç‰‡æ®µæŒ‡å®šåŒ…å«åœ¨æ­¤ç±»ä¸­çš„é¢„æœŸå†…å®¹ã€‚
  * 
  * &lt;pre&gt;
  * &amp;lt;complexType&amp;gt;
@@ -67,7 +67,7 @@ public class CertificateData {
     protected String encPrivateKey;
 
     /**
-     * »ñÈ¡statusÊôĞÔµÄÖµ¡£
+     * è·å–statuså±æ€§çš„å€¼ã€‚
      * 
      * @return
      *     possible object is
@@ -79,7 +79,7 @@ public class CertificateData {
     }
 
     /**
-     * ÉèÖÃstatusÊôĞÔµÄÖµ¡£
+     * è®¾ç½®statuså±æ€§çš„å€¼ã€‚
      * 
      * @param value
      *     allowed object is
@@ -91,7 +91,7 @@ public class CertificateData {
     }
 
     /**
-     * »ñÈ¡signCertÊôĞÔµÄÖµ¡£
+     * è·å–signCertå±æ€§çš„å€¼ã€‚
      * 
      * @return
      *     possible object is
@@ -103,7 +103,7 @@ public class CertificateData {
     }
 
     /**
-     * ÉèÖÃsignCertÊôĞÔµÄÖµ¡£
+     * è®¾ç½®signCertå±æ€§çš„å€¼ã€‚
      * 
      * @param value
      *     allowed object is
@@ -115,7 +115,7 @@ public class CertificateData {
     }
 
     /**
-     * »ñÈ¡encCertÊôĞÔµÄÖµ¡£
+     * è·å–encCertå±æ€§çš„å€¼ã€‚
      * 
      * @return
      *     possible object is
@@ -127,7 +127,7 @@ public class CertificateData {
     }
 
     /**
-     * ÉèÖÃencCertÊôĞÔµÄÖµ¡£
+     * è®¾ç½®encCertå±æ€§çš„å€¼ã€‚
      * 
      * @param value
      *     allowed object is
@@ -139,7 +139,7 @@ public class CertificateData {
     }
 
     /**
-     * »ñÈ¡encPrivateKeyÊôĞÔµÄÖµ¡£
+     * è·å–encPrivateKeyå±æ€§çš„å€¼ã€‚
      * 
      * @return
      *     possible object is
@@ -151,7 +151,7 @@ public class CertificateData {
     }
 
     /**
-     * ÉèÖÃencPrivateKeyÊôĞÔµÄÖµ¡£
+     * è®¾ç½®encPrivateKeyå±æ€§çš„å€¼ã€‚
      * 
      * @param value
      *     allowed object is
