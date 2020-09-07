@@ -6,3 +6,12 @@
 [![release](https://img.shields.io/badge/release-0.1.0-blue.svg)](https://github.com/aaric/webservice-achieve/releases)
 
 > WebService CXF Learning.
+
+## wsdl2java
+
+```bash
+# HelloWebServiceTests
+sh> wsdl2java -encoding utf-8 -p com.sample.ws.service \
+  -d C:\Users\hanqi\Desktop\wsdl \
+  http://localhost:8080/ws/helloWebService?wsdl
+```

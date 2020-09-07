@@ -13,12 +13,18 @@ import javax.jws.WebService;
  */
 @Component
 @WebService(serviceName = "helloWebService",
-        targetNamespace = "http://ws.sample.com",
+        targetNamespace = "http://service.ws.sample.com/",
         endpointInterface = "com.sample.ws.service.HelloWebService")
 public class HelloWebServiceImpl implements HelloWebService {
 
     @Override
     public int add(int x, int y) {
         return x + y;
+    }
+
+    @Override
+    public String user(long id) {
+        //return new User(id, "Aaric");
+        return "Hello World";
     }
 }

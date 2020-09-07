@@ -1,3 +1,8 @@
 dependencies {
-    // todo
+    implementation "org.apache.cxf:cxf-rt-frontend-jaxws"
+    implementation "org.apache.cxf:cxf-rt-transports-http"
+    //implementation "org.apache.cxf:cxf-rt-features-logging"
+
+    implementation "cn.com.infosec:ISFJ:V2.0.139.15"
+    implementation "cn.com.infosec:NetSignAgent:V5.5.40.12"
 }
