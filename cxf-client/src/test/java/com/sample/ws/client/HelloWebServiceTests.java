@@ -3,6 +3,8 @@ package com.sample.ws.client;
 import com.sample.ws.service.HelloWebService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.cxf.endpoint.Client;
+import org.apache.cxf.interceptor.LoggingInInterceptor;
+import org.apache.cxf.interceptor.LoggingOutInterceptor;
 import org.apache.cxf.jaxws.JaxWsProxyFactoryBean;
 import org.apache.cxf.jaxws.endpoint.dynamic.JaxWsDynamicClientFactory;
 import org.junit.jupiter.api.Assertions;
@@ -36,6 +38,8 @@ public class HelloWebServiceTests {
         JaxWsProxyFactoryBean factory = new JaxWsProxyFactoryBean();
         factory.setServiceClass(HelloWebService.class);
         factory.setAddress("http://localhost:8080/ws/helloWebService");
+        factory.getInInterceptors().add(new LoggingInInterceptor());
+        factory.getOutFaultInterceptors().add(new LoggingOutInterceptor());
         HelloWebService helloWebService = (HelloWebService) factory.create();
 
         int result = helloWebService.add(1, 2);
